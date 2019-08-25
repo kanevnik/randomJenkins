@@ -8,7 +8,6 @@
     <artifactId>jenkins-example_2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
@@ -57,16 +56,20 @@
 
     <repositories>
         <repository>
-            <id>myMavenRepo.read</id>
-            <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoReadUrl}</url>
         </repository>
     </repositories>
-
+    
     <distributionManagement>
         <repository>
-            <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoWriteUrl}</url>
         </repository>
+        <snapshotRepository>
+            <id>myMavenRepo</id>
+            <url>${myMavenRepoWriteUrl}</url>
+        </snapshotRepository>
     </distributionManagement>
 
 </project>
