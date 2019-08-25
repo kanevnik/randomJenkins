@@ -8,14 +8,11 @@
     <artifactId>jenkins-example_2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <junit.jupiter.version>5.0.0-M3</junit.jupiter.version>
         <junit.platform.version>1.0.0-M3</junit.platform.version>
-        <myMavenRepoReadUrl>https://mymavenrepo.com/repo/pwrkLl6DZQKWzNAvMnjP/</myMavenRepoReadUrl>
-        <myMavenRepoWriteUrl>https://mymavenrepo.com/repo/PKYpQOxj0vPCI9YLeCOX/</myMavenRepoWriteUrl>
     </properties>
 
     <build>
