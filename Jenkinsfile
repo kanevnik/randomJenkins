@@ -19,8 +19,6 @@ pipeline {
                 }
             }
         }
-
-
         stage ('Deployment Stage') {
             steps {
                 withMaven(maven : 'local_maven') {
